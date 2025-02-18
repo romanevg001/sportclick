@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?9vva2');
-  src:  url('fonts/icomoon.eot?9vva2#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?9vva2') format('truetype'),
-    url('fonts/icomoon.woff?9vva2') format('woff'),
-    url('fonts/icomoon.svg?9vva2#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?atzwk7');
+  src:  url('fonts/icomoon.eot?atzwk7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?atzwk7') format('truetype'),
+    url('fonts/icomoon.woff?atzwk7') format('woff'),
+    url('fonts/icomoon.svg?atzwk7#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,36 +25,39 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-bell:before {
-  content: "\e900";
-}
-.icon-bookmark:before {
+.icon-trolly:before {
   content: "\e901";
 }
-.icon-corner-up-right:before {
+.icon-plus:before {
   content: "\e902";
 }
-.icon-message-circle:before {
+.icon-person:before {
   content: "\e903";
 }
-.icon-more-horizontal:before {
+.icon-likefill:before {
   content: "\e904";
 }
-.icon-plus:before {
+.icon-like:before {
   content: "\e905";
 }
-.icon-search:before {
+.icon-dots:before {
   content: "\e906";
 }
-.icon-shopping-cart:before {
+.icon-arrow:before {
   content: "\e907";
 }
-.icon-thumbs-up:before {
+.icon-notification:before {
   content: "\e908";
 }
-.icon-user:before {
+.icon-video:before {
   content: "\e909";
 }
-.icon-youtube:before {
+.icon-favorite:before {
   content: "\e90a";
+}
+.icon-chat:before {
+  content: "\e90b";
+}
+.icon-eye:before {
+  content: "\e900";
 }
