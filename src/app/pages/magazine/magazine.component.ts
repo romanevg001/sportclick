@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  template: '<router-outlet></router-outlet>',
+  imports: [],
+  templateUrl: './magazine.component.html',
+  styleUrl: './magazine.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class AppComponent {
+export class MagazineComponent {
   title = 'sportclick';
 }

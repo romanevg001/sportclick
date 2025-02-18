@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@use './scss/variables';
+@use '../node_modules/bootstrap/scss/bootstrap.scss';
+@use './assets/fonts/fonts.css';
+
+
+:root {
+    --bg-grey: #f6f6f6;
+    --bg-grey-200: #EAEAEA;
+
+    
+}
+
+body {
+    font-family: 'Roboto';
+}

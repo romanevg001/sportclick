@@ -7,7 +7,9 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "style": "scss",
+          "changeDetection": "OnPush",
+          "standalone": true
         }
       },
       "root": "",
@@ -32,6 +34,7 @@
               }
             ],
             "styles": [
+              "src/assets/icons/style.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -91,6 +94,8 @@
               }
             ],
             "styles": [
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "src/assets/icons/style.css",
               "src/styles.scss"
             ],
             "scripts": []
