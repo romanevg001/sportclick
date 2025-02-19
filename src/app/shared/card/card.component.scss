@@ -1,0 +1,46 @@
+.card-actions {
+    color: #818189;
+    padding-top: 20px;
+    span {
+        margin-right: 20px;
+        white-space: nowrap;
+        cursor: pointer;
+        &:hover {
+            color: #283DC1;
+        }
+    }
+}
+h1 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    line-height: 1.6em;
+    font-size: 500;
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.m-card-img {
+    display: block;
+    margin-left: -20px;
+    width: calc(100% + 40px);
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position:  50%;
+    }
+}
+
+.further {
+    color: #283DC1;
+    font-size: 500;
+    text-decoration: none;
+
+}

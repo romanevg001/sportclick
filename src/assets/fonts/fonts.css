@@ -23,3 +23,17 @@
 	font-weight: bold;
 	font-style: italic;
 }
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('./Roboto-SemiBold.ttf')  format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('./Roboto-SemiBoldItalic.ttf')  format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}

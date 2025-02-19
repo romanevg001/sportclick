@@ -1,9 +1,9 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { CardComponent } from '../../shared/card/card.component';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [CardComponent],
   templateUrl: './magazine.component.html',
   styleUrl: './magazine.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush
